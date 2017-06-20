@@ -60,7 +60,7 @@ void Entity::setTexture( Texture* _texture ){
 //===============================================================================================
 bool Entity::transform( const Transform& _transformation ){
   if( _mStatic ){
-    // Reemplazar por una conzola en el motor
+    // Reemplazar por una consola en el motor
     // Consola OpenGL
     std::cout<<"[Entity]["<<Object::_mId<<"] Warning: The entity is static!."<<std::endl;
     std::cout.flush(  );
